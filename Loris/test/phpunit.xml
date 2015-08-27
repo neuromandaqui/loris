@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit
+        bootstrap="bootstrap.php"
+        verbose="true"
+        colors="true">
+    <testsuites>
+        <testsuite name='LorisUnitTests for php/libraries'>
+            <directory>./unittests/</directory>
+        </testsuite>
+    </testsuites>
+    <testsuites>
+        <testsuite name='Loris Core Integration Tests'>
+            <directory>./integrationtests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
